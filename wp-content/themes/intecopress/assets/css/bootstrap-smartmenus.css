@@ -1,0 +1,38 @@
+/*--------------------------------------------------
+=>> Theme Menubar
+--------------------------------------------------*/
+
+.navbar.navbar-header-wrap {
+    background-color: rgb(0 0 0 / 60%);
+}
+
+.site-branding-text .site-title {
+    line-height: 1.5;
+}
+.navbar.header-fixed-top .site-branding-text {
+    margin-top: 0.4rem;
+    margin-bottom: 0.380rem;
+}
+.navbar .nav .menu-item .dropdown-item:hover,
+.navbar .nav .menu-item .dropdown-item:focus {
+    color: #fff;
+}
+@media (max-width: 991px) {
+	.navbar.navbar-header-wrap .nav .menu-item .dropdown-item:hover,
+	.navbar.navbar-header-wrap .nav .menu-item .dropdown-item:focus	{
+		color: #fff;
+	}
+}
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu > .menu-item > .dropdown-item {
+    background-color: transparent;
+	color: #fff;
+}
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu .menu-item.active .dropdown-item {
+    color: #fff !important;
+}
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu > .menu-item > .dropdown-item:hover, .navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu > .menu-item > .dropdown-item:focus {
+    color: #fff;
+}
+.navbar .nav .dropdown-menu .menu-item.active .dropdown-item {
+    color: #fff !important;
+}

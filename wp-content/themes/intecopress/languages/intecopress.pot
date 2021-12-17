@@ -1,0 +1,127 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IntecoPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-07 06:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.8.1\n"
+"X-Domain: intecopress"
+
+#. %1$s %2$s: day
+#. %1$s %2$s: month
+#. %1$s %2$s: year
+#. %1$s %2$s: author
+#. %1$s %2$s: category
+#. %1$s %2$s: tag
+#. %1$s %2$s: WooCommerce
+#. %1$s %2$s: search
+#: template-parts/site-breadcrumb.php:85 template-parts/site-breadcrumb.php:88
+#: template-parts/site-breadcrumb.php:91 template-parts/site-breadcrumb.php:94
+#: template-parts/site-breadcrumb.php:97 template-parts/site-breadcrumb.php:100
+#: template-parts/site-breadcrumb.php:103
+#: template-parts/site-breadcrumb.php:120
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. %1$s: 404
+#: template-parts/site-breadcrumb.php:113
+msgid "404"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:94
+msgid "All posts by"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:31
+msgid "Archive by category"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:85 template-parts/site-breadcrumb.php:88
+#: template-parts/site-breadcrumb.php:91
+msgid "Archives"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:97
+msgid "Category"
+msgstr ""
+
+#: footer.php:14 inc/customizer/intecopress-customizer-options.php:17
+msgid ""
+"Copyright &copy; 2021 | Powered by <a href=\"//wordpress.org/\">WordPress</a>"
+" <span class=\"sep\"> | </span> IntecoPress theme by <a target=\"_blank\" "
+"href=\"//themearile.com/\">ThemeArile</a>"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:68
+msgid "Error 404"
+msgstr ""
+
+#: inc/customizer/intecopress-customizer-options.php:22
+msgid "Footer Copyright"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:26 template-parts/site-breadcrumb.php:29
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themearile.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themearile.com/intecopress-theme/"
+msgstr ""
+
+#. Name of the theme
+msgid "IntecoPress"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"IntecoPress is a fantastic multipurpose WordPress theme for interior design "
+"and home decor. It helps you to take your business to the next dream level. "
+"The theme perfectly suited for architecture, interior design, decoration, "
+"business, furniture, home decor, construction, corporate, agency, business "
+"promotion, industries, beauty &amp; spa salons, photography, gym, restaurant,"
+" blog, travel agency, and many other websites compatible, You will have lots "
+"of options to consider. As well as sophisticated plus it has some exotic "
+"features like customization and clean code, advanced typography, sticky menu,"
+" logo upload, header image, Bootstrap 4 framework, built with SEO in mind, "
+"and theme info area besides being Mobile-ready, translation ready (WPML, "
+"Polylang) and it's built to be beautiful on all screen sizes. This theme "
+"supports the best Elementor page builder to create, edit, and updates page "
+"designs as per the requirement. IntecoPress also supports popular free and "
+"premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact "
+"Form 7, Jetpack, Google Analytics, and much more. Check the demo of "
+"Designexo Pro https://themearile.com/designexo-pro-theme/."
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:120
+msgid "Search results for"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:103
+msgid "Shop"
+msgstr ""
+
+#: template-parts/site-breadcrumb.php:100
+msgid "Tag"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeArile"
+msgstr ""
+
+#: template-parts/site-navbar.php:12
+msgid "Toggle navigation"
+msgstr ""

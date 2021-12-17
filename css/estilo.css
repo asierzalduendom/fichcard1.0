@@ -1,0 +1,13 @@
+.botones_gastos_guardar{
+    width: 50%;
+    height: 50%;
+    font-size: 13px;
+    float: left;
+   
+   
+}
+
+.contenedor{
+    margin: 20%;
+    background-color: black;
+}

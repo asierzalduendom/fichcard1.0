@@ -1,0 +1,985 @@
+html {
+    background: white;
+    font-family:Roboto-Light;
+}
+h1 {
+    text-align: center;
+    font-size: 33px;
+    color:black;
+    font-family: Roboto-Light;
+}
+.img-tarjeta{
+  margin-left: 20%;
+  margin-right:20%;
+}
+
+/* SWITCH TARJETAS*/
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:darkred;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: darkred;
+  padding: 6px;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px red;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+h2{
+  font-size: 30px;
+  border-bottom: solid 4px #ce0606;
+  margin-right: 5px;
+  color:white;
+  background-color: #333333;
+  margin: 1px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+h3{
+  font-size: 25px;
+  border-bottom: solid darkred 2px;
+  padding: 10px;
+}
+
+h6 {
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+
+#botellero_num{
+  margin-top: 3px;
+  height: 30px;
+}
+
+#animacion:focus{
+  width: 70%;
+  transition: 0.45s;
+  border-radius: 50px;
+}
+
+
+.formulario {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+
+
+.imagenindex {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+.imagenindexlogin {
+    width:33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+@font-face{
+    font-family:Roboto-Light;
+    src:url(../fuentes/Roboto-Light.ttf)
+}
+
+
+#cabeceras-tabla {
+
+    text-align: center;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    margin: 0;
+    border:0;
+    border-bottom:solid 2px red;
+    width: 10%;
+
+}
+
+table {
+    width: 100%;
+    margin-bottom: 50px;
+    overflow-x:auto;
+}
+
+th {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  border-bottom:solid 2px red;
+}
+
+td {
+    text-align: center;
+    border-bottom: solid 1px black;
+    border: 1px solid #ddd;
+    width: 0%;
+}
+.inputcondatos{
+  width: 100%;
+  font-size: 70%;
+}
+
+.boton {
+  background-color: midnightblue;
+  border: 1px solid #555555;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  font-family: Roboto-Light;
+
+}
+
+  .php {
+    margin-top: 1%;
+}
+
+
+.salir {
+    float: right;
+    margin-right:20px;
+}
+
+#txiki {
+    width: 25%;
+    height: 15%;
+    float: left
+}
+
+body {
+  margin:0px;
+}
+
+
+#logout {
+    float: right;
+}
+
+#logout:hover {
+    float: right;
+    background-color: darkred;
+}
+
+#usuario {
+    float: right;
+}
+
+#usuario:hover {
+    float: right;
+    background-color: #0a6c85;
+}
+
+#camara {
+  float: right;
+}
+
+#camara:hover {
+float: right;
+background-color: rgb(7, 124, 13);
+}
+
+#trovacabecera {
+  background-color: #333;
+}
+#subtituloinicio {
+    border-bottom: solid 0px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#trova {
+        float: left;
+}
+
+#trova:hover {
+    float: left;
+    background-color:#333;
+
+}
+
+.formulario_insertar {
+  text-align: left;
+}
+.formulario_buscar {
+  text-align: right;
+}
+
+.autorelleno{
+  background-color: #ffa600fd;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor:pointer;
+    width: 10%;
+    float: left;
+   }
+  .boton_editar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor:pointer;
+    width: 48%;
+    float:left;
+}
+
+  .boton_borrar {
+    background-color:#DF3A01;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor:pointer;
+    width: 48%;
+    float:right;
+}
+
+  .boton_editar_3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor:pointer;
+    width: 32%;
+
+}
+.error{
+  color: black;
+  border: solid 1px black;
+  background-color: dimgrey;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding:5px;
+}
+
+.boton_borrar_3 {
+    background-color: #DF3A01;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor:pointer;
+    width: 32%;
+    float:right;
+}
+
+.boton_modificar_3 {
+    background-color: #045FB4;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor:pointer;
+    width: 32%;
+}
+
+.boton_insertar {
+  background-color: #424242;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+ 
+}
+
+.boton_insertar_botellero {
+  background-color: #DF3A01;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 6px 4px;
+  cursor: pointer;
+  width: 25%;
+  height:5%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  font-size: 130%;
+ 
+}
+.boton_buscar {
+  background-color: #0174DF;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.input{
+ width:60%;
+ padding: 13px 20px;
+ margin: 0.5%;
+ border: none;
+ border-color: white;
+ text-align: center;
+ border-radius: 50px;
+ outline: 0 none;
+}
+
+input[type="email"] {
+  width: 100%;
+  border:none;
+  text-align: center;
+  font-size: 100%;
+}
+.button{
+  border-radius: 50px;
+  background-color:#424242;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  font-size: 95%;
+}
+.button:hover {
+ opacity: 0.5; 
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 40%;
+ font-size: 95%;
+ border-radius: 50px;
+
+}
+
+button {
+ background-color:#424242;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 40%;
+ font-size: 95%;
+}
+
+input[name="password"] {
+  width: 100%;
+  background-color:transparent;
+  border: none;
+  text-align: center;
+}
+
+input[name="confpassword"] {
+  width: 100%;
+  background-color:transparent;
+  border: none;
+  text-align: center;
+}
+
+input[name="loginpassword"] {
+  width: 60%;
+  background-color: white;
+}
+
+.contenedor {
+ padding: 50px;
+ text-align: center;
+}
+
+.label {
+  font-size:30px;
+  font-weight: 900;
+  color:#FFFFFF;
+  width: 700%;
+}
+
+.tabulado {
+  margin-left:56%;
+}
+
+#tabla_empleados {
+  width: auto;
+}
+
+input[type="text"]{
+  border: black 1px;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+ 
+}
+input[type="date"] {
+  width: 100%;
+  border:none;
+  text-align: center;
+}
+input[type="number"] {
+  width: 100%;
+  border:none;
+  text-align: center;
+  background-color: transparent;
+  height: 100%;
+}
+
+select {
+  width: 100%;
+  border:none;
+  text-align: center;
+  background-color: transparent;
+}
+
+.combousuario{
+  width: 92%;
+  text-align: center;
+  background-color: white;
+  font-size: 110%;
+  margin-left: 4%;  
+  margin-right: 4%;
+
+}
+
+input[name="buscarvalor"] {
+  border-bottom: 1px solid grey;
+  text-align: left;
+  width: 30%;
+  height: 30px;
+}
+
+input[name="usernamelogin"] {
+  width: 60%;
+  background-color: white;
+  
+}
+
+.div-login{
+  border: solid 4px white;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 7px;
+  background-color: #202020;
+  margin-top: 3%;
+  
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.inputcambiarcontra{
+  width: 30%;
+  text-align: center;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.container {
+  padding: px;
+}
+
+.modals {
+  margin-top: 100px;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.61); 
+  padding-top: 60px;
+  
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px transparent rgb(43, 42, 42);
+  width: 60%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.restablecer_fuera{
+  width: 20%;
+  background-color: #045FB4;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.9s;
+  animation: animatezoom 0.9s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(3)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+
+}
+
+@media only screen and (max-width: 1000px){
+
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #trovacabecera {
+      background-color: #333;
+      float: left;
+     
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 200%;
+  }
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 200%;
+  }
+.inputcambiarcontra{
+  width: 50%;
+  text-align: center;
+  font-size: 160%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.61); 
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px transparent rgb(43, 42, 42);
+  width: 60%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.restablecer_fuera{
+  width: 15%;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.9s;
+  animation: animatezoom 0.9s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+
+}
+
+.div-login{
+  border: solid 4px white;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 7px;
+  background-color: #202020;
+  margin-top: 3%;
+}
+.autorelleno{
+  background-color: #ffa600fd;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor:pointer;
+    width: 20%;
+    float: left;
+    font-size: 120%;
+}
+.boton_restablecer_3 {
+  background-color: #045FB4;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor:pointer;
+  width: 30%;
+  height:5%;
+  float:right;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 120%;
+  margin-top: 10px;
+}
+.boton_insertar {
+  background-color: #424242;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-size: 110%;
+}
+.boton_insertar_botellero {
+  background-color: #DF3A01;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 6px 4px;
+  cursor: pointer;
+  width: 25%;
+  height:5%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  font-size: 130%;
+ 
+}
+input[type="text"]{
+  border: black 1px;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  font-size: 110%;
+ 
+}
+input[type="date"] {
+  width: 100%;
+  border:none;
+  text-align: center;
+  font-size: 120%;
+
+}
+input[type="number"] {
+  width: 100%;
+  border:none;
+  text-align: center;
+  background-color: transparent;
+  height: 100%;
+  font-size: 110%;
+}
+
+select {
+  width: 100%;
+  border:none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 110%;
+}
+
+input[name="password"] {
+  width: 100%;
+  background-color:transparent;
+  border: none;
+  text-align: center;
+}
+
+input[name="confpassword"] {
+  width: 100%;
+  background-color:transparent;
+  border: none;
+  text-align: center;
+}
+
+input[name="loginpassword"] {
+  width: 60%;
+  background-color: white;
+  font-size: 170%;
+}
+
+input[name="usernamelogin"] {
+  width: 60%;
+  background-color: white;
+  font-size: 170%;
+}
+input[type="email"] {
+  width: 100%;
+  border:none;
+  text-align: center;
+  font-size: 110%;
+}
+.buscar{
+  width: 50%;
+}
+
+.boton_editar {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor:pointer;
+  width: 48%;
+  height: 48%;
+  float:left;
+  font-size: 110%;
+}
+
+.boton_borrar {
+  background-color:#B40404;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor:pointer;
+  width: 48%;
+  height: 48%;
+  float:right;
+  font-size: 110%;
+}
+
+.button {
+  background-color: #424242;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: 110%;
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: #424242;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: 110%;
+  border-radius: 50px;
+  opacity: 0.6;
+}
+
+.boton_buscar {
+  background-color: #0174DF;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 110%;  
+}
+th {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  font-size: 110%;
+}
+input[name="buscarvalor"] {
+  border-bottom: 1px solid grey;
+  text-align: left;
+  width: 50%;
+  height: 30px;
+}
+
+}
+
+.datoperfil{
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 10px;
+}
+
+.europe_card{
+  background-image: url("/img/tarjeta_nacional.png");
+  width: 900px;
+  height: 560px;
+  border: white solid 3px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.inter_card{
+  background-image: url("/img/tarjeta_internacional.png");
+  width: 900px;
+  height: 570px;
+  border: white solid 3px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.num_tarjeta{
+  text-align: center;
+  margin-top: 400px;
+  font-size: 45px;
+  color: white;
+  margin-right:400px;
+}
+
+.tipo_tarjetas{
+  text-align: center;
+  margin-right: 500px;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+}
+
+.fecha_caducidad{
+  text-align: center;
+  margin-left: 500px;
+  margin-top: -53px;
+  font-size: 30px;
+  color: white;
+  float: left;
+  
+}

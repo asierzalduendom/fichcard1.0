@@ -1,0 +1,54 @@
+[2021-11-16 10:15:22] [LOG] Plugin has been activated
+[2021-11-16 10:15:23] [ERROR] POST error:
+[2021-11-16 10:15:23] [ERROR] UnexpectedValueException: DirectoryIterator::__construct(/var/www/wordpress/wp-content/uploads): failed to open dir: No such file or directory in /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php:120
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(120): DirectoryIterator->__construct('/var/www/wordpr...')
+#1 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(394): BMI\Plugin\Scanner\BMI_FileScanner::scanDirectorySizeOnly('/var/www/wordpr...', '/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(178): BMI\Plugin\Scanner\BMI_FileScanner::scanFiles('/var/www/wordpr...', '/var/www/wordpr...')
+#3 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(48): BMI\Plugin\BMI_Ajax->dirSize()
+#4 /var/www/wordpress/wp-content/plugins/backup-backup/includes/initializer.php(224): BMI\Plugin\BMI_Ajax->__construct()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(303): BMI\Plugin\Backup_Migration_Plugin->ajax('')
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 /var/www/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_backup_...')
+#9 {main}
+[2021-11-16 10:15:27] [ERROR] POST error:
+[2021-11-16 10:15:27] [ERROR] UnexpectedValueException: DirectoryIterator::__construct(/var/www/wordpress/wp-content/uploads): failed to open dir: No such file or directory in /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php:120
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(120): DirectoryIterator->__construct('/var/www/wordpr...')
+#1 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(394): BMI\Plugin\Scanner\BMI_FileScanner::scanDirectorySizeOnly('/var/www/wordpr...', '/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(178): BMI\Plugin\Scanner\BMI_FileScanner::scanFiles('/var/www/wordpr...', '/var/www/wordpr...')
+#3 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(48): BMI\Plugin\BMI_Ajax->dirSize()
+#4 /var/www/wordpress/wp-content/plugins/backup-backup/includes/initializer.php(224): BMI\Plugin\BMI_Ajax->__construct()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(303): BMI\Plugin\Backup_Migration_Plugin->ajax('')
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 /var/www/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_backup_...')
+#9 {main}
+[2021-11-16 10:16:31] [ERROR] POST error:
+[2021-11-16 10:16:31] [ERROR] UnexpectedValueException: DirectoryIterator::__construct(/var/www/wordpress/wp-content/uploads): failed to open dir: No such file or directory in /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php:120
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(120): DirectoryIterator->__construct('/var/www/wordpr...')
+#1 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(394): BMI\Plugin\Scanner\BMI_FileScanner::scanDirectorySizeOnly('/var/www/wordpr...', '/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(178): BMI\Plugin\Scanner\BMI_FileScanner::scanFiles('/var/www/wordpr...', '/var/www/wordpr...')
+#3 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(48): BMI\Plugin\BMI_Ajax->dirSize()
+#4 /var/www/wordpress/wp-content/plugins/backup-backup/includes/initializer.php(224): BMI\Plugin\BMI_Ajax->__construct()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(303): BMI\Plugin\Backup_Migration_Plugin->ajax('')
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 /var/www/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_backup_...')
+#9 {main}
+[2021-11-16 10:29:30] [ERROR] POST error:
+[2021-11-16 10:29:30] [ERROR] UnexpectedValueException: DirectoryIterator::__construct(/var/www/wordpress/wp-content/uploads): failed to open dir: No such file or directory in /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php:120
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(120): DirectoryIterator->__construct('/var/www/wordpr...')
+#1 /var/www/wordpress/wp-content/plugins/backup-backup/includes/scanner/files.php(394): BMI\Plugin\Scanner\BMI_FileScanner::scanDirectorySizeOnly('/var/www/wordpr...', '/var/www/wordpr...')
+#2 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(178): BMI\Plugin\Scanner\BMI_FileScanner::scanFiles('/var/www/wordpr...', '/var/www/wordpr...')
+#3 /var/www/wordpress/wp-content/plugins/backup-backup/includes/ajax.php(48): BMI\Plugin\BMI_Ajax->dirSize()
+#4 /var/www/wordpress/wp-content/plugins/backup-backup/includes/initializer.php(224): BMI\Plugin\BMI_Ajax->__construct()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(303): BMI\Plugin\Backup_Migration_Plugin->ajax('')
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 /var/www/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#8 /var/www/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_backup_...')
+#9 {main}
+[2021-11-16 10:29:41] [LOG] Plugin has been deactivated

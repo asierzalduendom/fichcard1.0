@@ -1,0 +1,66 @@
+RewriteEngine on
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+RewriteRule .* - [F]
+<files wp-config.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files config.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files perfil.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files fichar.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files gestion-tarjetas.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files libreria.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files listar-gastos.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files listar-usuarios.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files nuevo-gasto.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files nuevo-usuario.php>
+  order allow,deny
+  deny from all
+</files>
+
+<files session.php>
+  order allow,deny
+  deny from all
+</files>
+
+Options All -Indexes
+
+
+
+
+
+# Evitar "directory browsing"
+# END WordPress

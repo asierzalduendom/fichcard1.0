@@ -1,0 +1,100 @@
+# Translation of Plugins - latch - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - latch - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-02 06:33:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - latch - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "Latch"
+msgstr "Latch"
+
+#. Plugin URI of the plugin
+msgid "http://www.elevenpaths.com"
+msgstr "http://www.elevenpaths.com"
+
+#. Description of the plugin
+msgid "Latch WordPress integration"
+msgstr "Integración par WordPress de Latch"
+
+#. Author of the plugin
+msgid "Eleven Paths"
+msgstr "Eleven Paths"
+
+#. Author URI of the plugin
+msgid "http://www.elevenpaths.com/"
+msgstr "http://www.elevenpaths.com/"
+
+#: two_factor.php:47
+msgid "Log In"
+msgstr "Acceder"
+
+#: latch.php:87
+msgid "Invalid application ID"
+msgstr "ID de aplicación no válido"
+
+#: latch.php:96
+msgid "Invalid secret key"
+msgstr "Secreto no válido"
+
+#: latch.php:115
+msgid "Latch Setup"
+msgstr "Configuración de Latch"
+
+#: latch.php:119
+msgid "Latch token"
+msgstr "Token de Latch"
+
+#: latch.php:122
+msgid "Your account is protected with Latch"
+msgstr "Su cuenta está protegida con Latch"
+
+#: latch.php:123
+msgid "Stop using Latch"
+msgstr "Dejar de usar Latch"
+
+#: latch.php:192
+msgid "<strong>Error</strong>: Invalid token"
+msgstr "<strong>Error</strong>:  Token no válido"
+
+#: latch.php:239
+msgid "<strong>Error</strong>: Invalid username or incorrect password."
+msgstr "<strong>Error</strong>: Nombre de usuario no válido o contraseña incorrecta."
+
+#: two_factor.php:35
+msgid "Powered by WordPress"
+msgstr "Funciona con WordPress"
+
+#: latch.php:44
+msgid "Global settings"
+msgstr "Ajustes globales"
+
+#: latch.php:45
+msgid "Application ID"
+msgstr "ID de aplicación"
+
+#: latch.php:46
+msgid "Secret key"
+msgstr "Secreto"
+
+#: latch.php:47
+msgid "API URL"
+msgstr "API URL"
+
+#: latch.php:54 latch.php:77
+msgid "Latch settings"
+msgstr "Ajustes Latch"
+
+#: latch.php:58
+msgid "Fill in the data received when you registered the application in Latch:"
+msgstr "Introduzca los datos generados al registrar la aplicación en Latch:"
+
+#: latch.php:81
+msgid "Save Changes"
+msgstr "Guardar cambios"
